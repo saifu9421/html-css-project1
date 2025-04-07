@@ -8,8 +8,8 @@
  display: flex;
  align-items: center;
  gap: 330px;
-    
 }
+
 .nav-list{ 
     display: flex;
      align-items: center;
@@ -48,6 +48,7 @@
     bottom: 60px;
      left: 760px;
    }
+
     #btn1{
           padding: 20px;
           width: 100px;
@@ -561,58 +562,131 @@
 
 /* responsive */
 
-@media (max-width: 768px) {
-    .baner-box {
-        margin: -150px 5% 0 auto;
+/* Tablet styles (600px - 760px) */
+@media  screen and (max-width:760px) {
+           /* navbar part  */
+           *{
+            margin: 0px;
+            padding: 0px;
+           }
+           body{
+             margin-left: -150px;
+           }
+
+           .navbar{
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            margin-left: 250px;
+           }
+
+    .nav-list{ 
+        display: flex;
+         align-items: center;
+         justify-items: center;
     }
-    
-    .range-img {
-        justify-content: space-around;
+    .nav-list li{
+        list-style: none;
+        font-size: 20px;
+        margin: 0 25px;
     }
-    
-    .links-columns {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .beautifilRooms {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .b-imgs-1, .b-imgs-2, .b-imgs-3 {
-        max-width: 45%;
-    }
-    
-    [class^="fur-img"] {
-        display: block;
-        position: absolute;
-    }
-    
-    .fur-img1 { left: 10%; top: 100px; }
-    .fur-img2 { left: 25%; top: 150px; }
-    .fur-img3 { left: 10%; top: 400px; }
-    .fur-img4 { left: 30%; top: 350px; }
-    .fur-img5 { left: 55%; top: 100px; }
-    .fur-img6 { left: 75%; top: 50px; }
-    .fur-img7 { left: 85%; top: 0; }
-    .fur-img8 { left: 75%; top: 350px; }
-    .fur-img9 { left: 65%; top: 350px; }
-    
-    .footer-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .footer-brand, .footer-links, .footer-newsletter {
-        flex-basis: 30%;
-    }
-    
-    .footer-bottom {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+     .nav-list li a{
+          text-decoration: none;
+          color: #000000;
+          font-family: poppins;
+     }
+
+     /* benar part  */
+     .baner-img{
+        margin-top: 50px;
+        width: 1050px;
+        height: 500px;
+        border-radius: 10px;
+           margin-left: 200px;
+      }
+
+     
+      .baner-box{
+        background-color: #FFF3E3;
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+       position: absolute;
+      bottom: -100px;
+        left: 500px;
+      }
+
+      #btn1{
+        padding: 10px;
+        width: 80px;
+        background-color: #B88E2F;
+        color: #FFF3E3;
+        position: relative;
+        top: 50px;
+  }
+
+  .baner-box h1, p{
+    font-family: poppins;
+    color: #000000;
+    margin-left: 40px;
+}
+.baner-box h1{
+font-size: 40px;
+margin-top: 20px;
+color:#B88E2F;
+position: relative;
+top: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.baner-box p{
+ position: relative;
+ top: 50px;
 }
 
-/* Desktop Styles */
+
+.range {
+    margin-top: 50px;
+    position: relative;
+    left: 500px;
+}
+.range-img{
+     display: grid;
+      grid-template-columns: repeat(1,1fr);
+}
+.range-imggs{
+        width: 300px;
+        height: 300px;
+        margin-left: 350px;
+}
+
+.shop-product{
+    position: relative;
+     left: 500px;
+}
+ 
+.shop-products-img{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+}
+.product-card{
+     margin-left: 250px;
+}
+#ShowMore{
+     position: relative;
+     left: 500px;
+}
+
+/* rooms Beautiful */
+
+.furniture{
+     display: none;
+}
+.funiro-footer{
+     position: relative; 
+     width: 1000px;
+     margin-left: 200px;
+
+}
+}
+
+/*  tablet (320px - 600px) */
