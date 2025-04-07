@@ -311,6 +311,7 @@
             .product-card:hover #parsen6{
                 display: none;
             }
+            
             /* show More Button  */
              #ShowMore{
                  padding: 15px;
@@ -789,4 +790,5 @@ top: 50px;
     width: 1000px;
         margin-left: 250px;
 }
+
 }
