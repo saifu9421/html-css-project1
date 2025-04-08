@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+     <!-- navbar-part -->
+     <!-- Navbar  part -->
+     <div  class="navbar">
+        <div  style="display: flex; align-items: center;" class="logo">
+            <img width="70px" src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dra7XkOhZ4vbkblcrRjLo0C-NMgWvmg5NNDMwxONtoZmO1ntxAhLGafXFFVDz4hgItYj8f4kycSSc8xgMK5P~OOqpoqdidZvKiVfAauLN4ORXcmQ3tjXexYLiq11UE1a2FKJWmKJK148ctlCoF0xQbu5wxIriM-CkhWWk498LRIooEHpS0dMM8sP8ukbPJI3zy7tVvcEtbVlHMScJewT-D0aFvxqM0tRcTEeVQ-mB72Ms~Wg2O3S~755wVmmZniK4Xpwel31LAKsE8ZkLJ2x9~P2XBNMh2Lwkc~2ZJZGOYny~CogC9j-Kp6OS0JXdBn3ycum-nwFsVMLso6T9vKN7Q__" alt="">
+             <h1 style="font-size: 30px;">Furniro</h1>
+        </div>
+            
+         <div class="nav-items">
+             <ul class="nav-list">
+               <li class="active">
+                    <a class="items-link" href="index.html">Home</a>
+               </li>
+                
+                 <li class="active"> 
+                  <a class="items-link" href="shop.html">Shop</a>
+                 </li>
+                  
+                  <li class="active">
+                     <a class="items-link" href="#">About</a>
+                  </li>
+                   
+                   <li class="active"> 
+               <a class="items-link" href="#">Contact</a>
+                   </li>
+             </ul>
+
+         </div>
+          
+          <div class="icon-bar">
+           <i class="fa-regular fa-user"></i>
+           <i class="fa-solid fa-magnifying-glass"></i>
+           <i class="fa-solid fa-heart"></i>
+             <a href="single-product.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+     </div>
+     <!-- banner part -->
+       <div>
+         <img  class="banner-img" src="https://s3-alpha-sig.figma.com/img/1461/f3d6/ff74c027a1888544144abe4be6e02cbf?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fpUOMfcZN4ZJTBtG1~O0TxgCXfB81yKrMogvlCDs46pNjHst7WicqnmmsCVyIbe6tQ042ie6fPM7eihNfHNNS3iFZeTuFOekN276RHqkXApcmHm8rrxqp~NSEGeRWJp3yjBuv16evLx9mvIjLPlTe5AXx~s0pQRj5QiyAKNWT-36hEiP92doNwZCHODfkCW3Ups-~XLhH6RAhkVLOKI9lIWT1ChpuRXVmReSYp95Ah6D8EsRZvMjqmbBxfQoLTeU~dIi9Vpc2U4o08cpEv4Ove7wWXNT-vIyFVMs4~t2aU2nJGIQ1ET2b8VvS7~OTSXIqFU0-iDqIVC43I-W7vr2JA__" alt="">
+         <img class="cart-img1" width="80px" src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=euHRJJrrUamoCTX66vlvX-sX4jGb7XyEeE1KBmod5U8f-S-tdg7zQb7Z2v1AP7K2zjMKiAvIUzgpmhMpEadelGk4Vp8D9utkr7zl-~g5hqw5ZSeZS5FkSCiy4sofEWEnN1GzgO03A~ZsedY8P8kP3NuIiJdRUYyqqgdm8~ZZoVO2uUoUtUTy2s864Qap8UEyNObguOh-TlIARj4kKwEMxXw8leXrREe68PXZpGe1NArLlC9UREluNxFu4ID3~5B1PVVCRi74NyVxJeaOqRIJdnmee~MW65nyjgDMS5YtwxEYpUxi6ViTfj1hdPhknDjzK0jSkwWsz1PeAvSr7GBmBg__" alt="">
+         <h1 class="shop-heding">Cart</h1>
+             <div class="shop-text">
+                  <a style="text-decoration: none; color: black;" href="index.html"><p>Home</p></a>
+                <i class="fa-solid fa-less-than"></i>
+                <a style="text-decoration: none; color: black;" href="cart.html"><p>Cart</p></a>
+             </div>
+       </div>
+       <!-- div product price -->
+         <div class="product-price">
+            <div class="product-price1">
+                  <p>Product</p>
+                  <p>Price</p>
+                  <p>Quantity</p>
+                  <p>Subtotal</p>
+            </div>
+
+            <div class="product-cart">
+                   <h1 style=" margin-top: 10px; margin-bottom: 20px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding: 10px;">Cart Totals</h1>
+                   <div style="margin-bottom: 20px; display: flex; gap: 40px; align-items: center; margin-left: 70px;">
+                    <p> Subtotal</p>
+                    <p>Rs. 250,000.00</p>
+                   </div>
+                   <br>
+                     <div style="margin-bottom: 20px; display: flex; gap: 58px;  margin-left: 70px;">
+                        <p>Total</p>
+                        <p style="color: #B88E2F;">Rs. 250,000.00</p>
+                     </div>
+                       <div style="margin-left: 50px; margin-top: 20px;">
+                        <p id="check-out">Check Out</p>
+                       </div>
+                       <br>
+            </div>
+
+         </div>
+         <!-- pricing -->
+               <div class="pricing-delete">
+                <div class="pricig">
+                    <img  width="80px" src="https://s3-alpha-sig.figma.com/img/2ac4/13c1/917ac944454e358f73d0af67e1f1b74e?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JoZrQqWhoN0j5QKK0t6q1auJHeaP6oi3aStO6qxd3MoLlOXeCvN2TP0k3OKBMnL7PFRw3Z9~WOCMwJlROfBuFZOoUaq1vPQOI0rc12hFPNdAculWAg5sr7fhe3vw8fIzNCO74Ip1vwSep4dc72IMSd-P0xDUf2vtMTud97s3wf~0VR~BttZj3EPBZFGM8TkPfrpvYhT5e1ykrfQR~o2jk-BbsSA3T8MnVIEQf0JHoYr2GtROeGVdBQ2sZxsmZfYH9c0Imql2iPk3U6bP7c3j8Tum9h5xvTa0GbUssYuG14iLwcsEu1YgVRUEr4yzAFEYJF96EZFXQVsrioiJwxv2Pw__" alt="">
+                    <p>Asgaard sofa</p>
+                    <p>Rs. 250,000.00</p>
+                        <p>1</p>
+                    <p>Rs. 250,000.00</p>
+                    <i   style="color: #B88E2F;" class="fa-solid fa-trash"></i>
+  
+             </div>
+               </div>
+               <br>
+
+                         <!-- High Quality -->
+             <div style="margin-top: 60px;" class="high-quality">
+                <div class="high-quality-text">
+                    <p>High Quality</p>
+                       <p>crafted from top materials</p>
+                </div>
+
+                <div class="high-quality-text">
+                 <p>Warranty Protection</p>
+                    <p>Over 2 years</p>
+             </div>
+
+             <div class="high-quality-text">
+                 <p>Free Shipping</p>
+                    <p>Order over 150 $</p>
+             </div>
+             <div class="high-quality-text">
+                 <p>24 / 7 Support</p>
+                    <p>Dedicated support</p>
+             </div>
+          
+      </div>
+
+      <div>
+        <footer class="funiro-footer">
+          <div class="footer-container">
+              <div class="footer-brand">
+                  <h1 class="logo">Funiro.</h1>
+                  <p class="address">
+                      400 University Drive Suite 200 Coral<br>
+                      Gables,<br>
+                      FL 33134 USA
+                  </p>
+              </div>
+  
+              <div class="footer-links">
+                  <h3 class="links-title">Links</h3>
+                  <div class="links-columns">
+                      <div class="links-column">
+                          <a href="#">Home</a>
+                          <a href="#">Shop</a>
+                          <a href="">About</a>
+                          <a href="">Contact</a>
+                      </div>
+                
+                      <div class="links-column">
+                          <a href="#">Payment Options</a>
+                          <a href="#">Returns</a>
+                          <a href="">Privacy Policies</a>
+                      </div>
+                      <div class="links-column">
+                          <a href="#">Newsletter</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="footer-newsletter">
+                  <h3 class="newsletter-title">Newsletter</h3>
+                  <form class="newsletter-form">
+                      <input type="email" placeholder="Enter Your Email Address">
+                  </form>
+              </div>
+          </div>
+  
+          <div class="footer-bottom">
+              <div class="footer-about">
+                  <a href="#">Privacy Policies</a>
+              </div>
+              <div class="footer-contact">
+                  <!-- Contact content would go here -->
+              </div>
+              <div class="footer-copyright">
+                  <p>2023 funiro. All rights reserved</p>
+              </div>
+          </div>
+      </footer>
+       </div>3
+</body>
+</html>
